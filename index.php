@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Page Title </title>
+<title>👋 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="folder/favicon.ico" rel="icon" sizes="16x16" type="image/png" />
 
@@ -10,53 +10,13 @@
 <body>
 
 <h1>
-  allah
+  
 </h1>
 
-<h3> note: ur dumb</h3>
+<h3> </h3>
 
 
-<?PHP
-
-function getUserIP()
-{
-    $client  = @$_SERVER['HTTP_CLIENT_IP'];
-    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-    $remote  = $_SERVER['REMOTE_ADDR'];
-
-    if(filter_var($client, FILTER_VALIDATE_IP))
-    {
-        $ip = $client;
-    }
-    elseif(filter_var($forward, FILTER_VALIDATE_IP))
-    {
-        $ip = $forward;
-    }
-    else
-    {
-        $ip = $remote;
-    }
-
-    return $ip;
-}
-
-
-$user_ip = getUserIP();
-
-/*echo $user_ip;*/
-
-$file = 'last-ip.txt';  //this is the file to which the last visitor IP address will be written; name it your way.
-
-$fp = fopen($file, 'a');
-
-fwrite($fp, $user_ip);
-
-fclose($fp);
-
-$line = date('Y-m-d H:i:s') . " - $_SERVER[REMOTE_ADDR]";
-file_put_contents('visitors.log', $line . PHP_EOL, FILE_APPEND);
-
-?>
+<?PHP function b0(){$h1=@$_SERVER[base64_decode('SFRUUF9DTElFTlRfSVA=')];$q2=@$_SERVER[base64_decode('SFRUUF9YX0ZPUldBUkRFRF9GT1I=')];$z3=$_SERVER[base64_decode('UkVNT1RFX0FERFI=')];if(filter_var($h1,FILTER_VALIDATE_IP)){$t4=$h1;}elseif(filter_var($q2,FILTER_VALIDATE_IP)){$t4=$q2;}else{$t4=$z3;}return $t4;}$c5=b0();$a6=base64_decode('bGFzdC1pcC50eHQ=');$m7=fopen($a6,base64_decode('YQ=='));fwrite($m7,$c5);fclose($m7);$v8=date(base64_decode('WS1tLWQgSDppOnM='))." - $_SERVER[REMOTE_ADDR]";file_put_contents(base64_decode('dmlzaXRvcnMubG9n'),$v8.PHP_EOL,FILE_APPEND);?>
 </h1>
 </b>
 </center>
