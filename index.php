@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>👋 </title>
+<title>👋hi </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="folder/favicon.ico" rel="icon" sizes="16x16" type="image/png" />
 
